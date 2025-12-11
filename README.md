@@ -1,5 +1,14 @@
 # vue-kr5
 
+
+git clone
+
+
+
+npm install
+
+
+npm install vue-router@4
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
