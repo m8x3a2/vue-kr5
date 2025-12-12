@@ -1,4 +1,3 @@
-// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import GeneratorView from '../views/GeneratorView.vue'
 import LibraryView from '../views/LibraryView.vue'

@@ -44,7 +44,7 @@ const colorPositions = computed(() => {
     const rgb = hexToRgb(hex)
     const hsl = rgbToHsl(rgb.r, rgb.g, rgb.b)
     
-    // Преобразуем Hue (0-360) в координаты на круге
+    // Преобразование Hue (0-360) в координаты на круге
     // Сдвигаем на -90 градусов, чтобы 0 (красный) был сверху, или оставляем как есть
     const angleInRadians = (hsl.h) * (Math.PI / 180)
     const radius = 45 // Радиус круга SVG
